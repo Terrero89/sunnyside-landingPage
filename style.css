@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+  
+}
+
+.navbar-nav .nav-item{
+    margin: 0.7rem;
+    
+}
+
+.navbar-nav .nav-link .regular{
+    color: white;
+}
+
+#wrap-hero{
+    background:url(images/desktop/image-header.jpg);
+    min-height: 100vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.hero-content{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+}
+
+.hero-content h2{
+ padding-top: 5rem;
+ color: white;
+ font-size: 4rem;
+}
+
+.arrow{
+    display:flex;
+    justify-content:center;
+    padding:2.5rem;
+    height:10rem
+}
+
