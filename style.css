@@ -2,24 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+   
     scroll-behavior: smooth;
+    
   
 }
 
-.navbar-nav .nav-item{
-    margin: 0.7rem;
-    
+body{
+ 
 }
 
-.navbar-nav .nav-link .regular{
-    color: white;
+.navbar-nav .nav-item{
+    margin: 1rem ;
+}
+
+.navbar-nav .nav-item .white{
+   margin-left: 1rem;
+}
+
+.navbar-brand{
+    
+font-weight: 800;
 }
 
 #wrap-hero{
     background:url(images/desktop/image-header.jpg);
-    min-height: 100vh;
-   background-position: center;
+    min-height: 80vh;
+   background-position: bottom;
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -31,15 +40,33 @@
 }
 
 .hero-content h2{
- padding-top: 5rem;
+ padding-top: 7rem;
  color: white;
- font-size: 4rem;
+ font-size: 3rem;
+ font-family: 'Fraunces', serif;
+ font-weight: 800;
+ letter-spacing: 7px;
+ text-transform: uppercase;
+ tra
 }
 
 .arrow{
     display:flex;
     justify-content:center;
-    padding:2.5rem;
+    padding-top:2.5rem;
     height:10rem
 }
 
+#white-button li .white-button a  {
+	background-color:#ffffff;
+	border-radius:28px;
+	
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	
+	font-size:17px;
+	padding:5px 30px;
+	text-decoration:none;
+	
+}
