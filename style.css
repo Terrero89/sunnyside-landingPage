@@ -310,6 +310,7 @@ object-fit: cover;
     padding: 4.5rem 0 ;
     justify-content: center;
     text-align: center;
+    padding: 6rem 0;
 }
 
 
@@ -373,5 +374,52 @@ object-fit: cover;
 
     
 }
+
+#photos{
+    min-height: 40vh;
+
+}
+
+.photos-wrap{
+    
+    
+   
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    
+  
+
+}
+
+.images div {
+    justify-content: center;
+    
+width: 25%;
+background-position: center;
+height: 20rem;
+}
+
+.milk{
+    background: url('/images/desktop/image-gallery-milkbottles.jpg');
+    
+}
+.orange{
+    background: url("/images/desktop/image-gallery-orange.jpg");
+   
+}
+
+.cone{
+    background: url("/images/desktop/image-gallery-cone.jpg");
+   
+}
+
+.squares{
+    background: url("/images/desktop/image-gallery-sugarcubes.jpg");
+    
+}
+
+
 
 
