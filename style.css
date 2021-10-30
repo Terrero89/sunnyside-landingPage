@@ -66,10 +66,16 @@ font-weight: 700;
 margin: auto ;
 	
 }
-
+#mainNavbar .navbar-brand{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+    
+}
 .navbar .navbar-nav .nav-item .white-button  {
+    background-color:#ffffff;
    
-    background-color:#a4c5f8;
 	border-radius:28px;
 	display:inline-block;
 	cursor:pointer;
@@ -79,9 +85,24 @@ margin: auto ;
 }
 
 .navbar .navbar-nav .nav-item .white-button:hover{
-     
-    background-color:#ffffff;
+    background-color:#a4c5f8;
 
+}
+
+.navbar .navbar-nav .nav-item {
+    color: white;
+    padding: 0rem 1rem;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 0.9rem;
+    
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(255, 0, 0);
+    
 }
 /* end of nav and hero section */
 
@@ -325,7 +346,7 @@ object-fit: cover;
     align-self: flex-end;
     justify-content: center;
     text-align: center;
-    width: 45%;
+    width: 50%;
     margin: 0 auto;
     padding-bottom:auto ;
 }
@@ -363,7 +384,7 @@ object-fit: cover;
     align-self: flex-end;
     justify-content: center;
     text-align: center;
-    width: 45%;
+    width: 50%;
     margin: 0 auto;
     padding-bottom:auto ;
 }
@@ -452,6 +473,7 @@ align-items: center;
     
 }
 .testimonial-box h2{
+    font-size: 1.5rem;
     font-family: 'Fraunces', serif;
     padding: 2rem 0 .1rem 0;
 
@@ -459,8 +481,8 @@ align-items: center;
 }
 
 .testimonial-box span{
-    font: rgba(209, 0, 0, 0.4);
-   
+    color: rgba(100, 100, 100, 0.8);
+   font-size: 0.8rem;
     padding: 2.5rem 0;
 
     
@@ -546,10 +568,12 @@ padding: 0 .5rem ;
  .bottom-content div.social a{ 
 padding: 0 .5rem ;
 color: rgb(27, 51, 44);
+text-decoration: none;
 
  }
 
  .bottom-content div.social a:hover{
      color: white;
+     text-decoration: none;
  }
 
