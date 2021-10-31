@@ -131,7 +131,7 @@ padding: 4rem 0;
 }
 
 .transform-img  {
-    background: url('images/desktop/image-transform.jpg');
+    background: url(images/desktop/image-transform.jpg);
   
     flex: 1 1 25rem;  
     width: 100%;
@@ -235,7 +235,7 @@ justify-content: center;
 }
 
 .msg-img  {
-    background: url('/images/desktop/image-stand-out.jpg');
+    background: url(images/desktop/image-stand-out.jpg);
   
     flex: 1 1 25rem;  
     width: 100%;
@@ -322,7 +322,7 @@ object-fit: cover;
 .cherry-img{
     
     padding: 1rem 0;
-    background: url(/images/desktop/image-graphic-design.jpg);
+    background: url(images/desktop/image-graphic-design.jpg);
     flex: 1 1 25rem;  
     width: 100%;
   height:40rem ;
@@ -369,7 +369,7 @@ object-fit: cover;
 
 .orange-img{
     padding: 1rem 0;
-    background: url(/images/desktop/image-photography.jpg);
+    background: url(images/desktop/image-photography.jpg);
     flex: 1 1 25rem;  
     width: 100%;
   height:40rem ;
@@ -491,7 +491,7 @@ align-items: center;
 
 
 .milk{
-    background: url(/images/desktop/image-gallery-milkbottles.jpg);
+    background: url(images/desktop/image-gallery-milkbottles.jpg);
     height: 27rem;
     object-fit: cover;
     background-position: center;
@@ -499,7 +499,7 @@ align-items: center;
 }
 
 .orange{
-    background: url(/images/desktop/image-gallery-orange.jpg);
+    background: url(images/desktop/image-gallery-orange.jpg);
     height: 27rem;
     object-fit: cover;
     background-position: center;
@@ -507,7 +507,7 @@ align-items: center;
     
 }
 .squares{
-    background: url(/images/desktop/image-gallery-cone.jpg);
+    background: url(images/desktop/image-gallery-cone.jpg);
     height: 27rem;
     object-fit: cover;
     background-position: center;
