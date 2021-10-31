@@ -131,8 +131,7 @@ padding: 4rem 0;
 }
 
 .transform-img  {
-    /* background: url('/images/desktop/image-transform.jpg'); */
-    background: url(https://images.unsplash.com/photo-1607690424560-35d967d6ad7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background: url('images/desktop/image-transform.jpg');
   
     flex: 1 1 25rem;  
     width: 100%;
