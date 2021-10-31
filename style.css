@@ -514,7 +514,7 @@ align-items: center;
     background-size: cover;
 }
 .cone{
-    background: url(/images/desktop/image-gallery-sugarcubes.jpg);
+    background: url(images/desktop/image-gallery-sugarcubes.jpg);
     height: 27rem;
     object-fit: cover;
     background-position: center;
